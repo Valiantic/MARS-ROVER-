@@ -1,6 +1,6 @@
 # import requests, os, webbrowser
 
-# api_key = 'Pa41EKygcE2L3n3DImI43fXEc445gGyKqwYQO2k4'
+# api_key = 'yourkey'
 # api_url = 'https://api.nasa.gov/mars-photos/api/v1/rovers/'
 
 # def get_rover_data():
@@ -126,7 +126,7 @@ import requests
 import random
 import webbrowser
 
-api_key = 'Pa41EKygcE2L3n3DImI43fXEc445gGyKqwYQO2k4'
+api_key = 'yourkey'
 api_url = 'https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos'
 
 def get_random_photo():
