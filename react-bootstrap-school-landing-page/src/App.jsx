@@ -9,7 +9,7 @@ function App() {
     <>
       <NavbarComponent />
 
-      <Container className="mt-5">
+      <Container fluid className="mt-5">
         <Row className="mb-4 text-center">
           <Col>
             <h1>Welcome to Our School</h1>
@@ -18,7 +18,7 @@ function App() {
         </Row>
 
         <Row>
-          <Col xs={12} md={4}>
+          <Col xs={12} sm={6} md={4} className='d-flex'>
             <CardComponent 
               image="https://via.placeholder.com/150"
               title="Our Programs"
@@ -26,7 +26,8 @@ function App() {
               buttonText="Learn More"
             />
           </Col>
-          <Col xs={12} md={4}>
+
+          <Col xs={12} sm={6} md={4} className='d-flex'>
             <CardComponent 
               image="https://via.placeholder.com/150"
               title="Admissions"
@@ -34,7 +35,7 @@ function App() {
               buttonText="Apply Now"
             />
           </Col>
-          <Col xs={12} md={4}>
+          <Col xs={12} sm={6} md={4} className='d-flex'>
             <CardComponent 
               image="https://via.placeholder.com/150"
               title="Contact Us"
